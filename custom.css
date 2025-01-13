@@ -13,3 +13,11 @@ footer {
 .spacer {
     margin-top: 5em;
 }
+
+.mid-spacer {
+    margin-top: 2em;
+}
+
+.mini-spacer {
+    margin-top: 0em;
+}
