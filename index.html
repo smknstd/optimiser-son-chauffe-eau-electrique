@@ -5,6 +5,7 @@
     <link rel="icon" href="./bwe.png">
     <link rel="stylesheet" type="text/css" href="./neat.css">
     <link rel="stylesheet" type="text/css" href="./custom.css">
+    <link rel="stylesheet" type="text/css" href="./glightbox.min.css" />
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,59 +38,74 @@
     <h1>Optimiser son chauffe-eau électrique</h1>
 
     <p>
-        En france, l'eau chaude sanitaire que nous utilisons dans nos logements principalement pour se laver et faire la vaisselle à la main a commencé à se démocratiser après-guerre et est aujourd’hui une évidence. Il existe une multitude de moyens différents de chauffer l’eau. Le système peut être couplé au chauffage central du logement comme une chaudière (fioul, gaz, bois, pellets, etc) ou être un système indépendant. La production peut être instantanée ou par accumulation dans un ballon d’eau chaude. Pour ce dernier cas il existe plusieurs technologies mais dans la majorité des cas c’est une simple résistance électrique qui chauffe et maintient chaude l'eau contenue dans le ballon.
-    </p>
-    <p>
-        Historiquement c’est cette solution qui est la plus courante en France. En 2016 on comptait environ 17 millions d’unités installées et 1.5 millions d’unités vendues dans le pays. Ces systèmes sont apparus dans un monde où l'énergie était abondante et bon marché et où l'état d'esprit n'était pas orienté vers la sobriété. Aujourd'hui le contexte est différent. Le prix de l'énergie augmente et les enjeux climatiques sont devenus une préoccupation majeure. Pourtant l'emprunte des chauffe-eaux électriques est rarement un sujet de discussion en comparaison du chauffage des habitations ou du transport. C'est pourtant un poste de consommation important dans un logement. On peut bien sûr d'abord questionner ses besoins en eau chaude et tenter de les réduire le plus possible. Mais il reste un élément majeur dans le fonctionnement de ces appareils qui est trop souvent sous-estimé : les pertes statiques.
-    </p>
-    <p>
-        La perte statique désigne l'énergie thermique perdue par dissipation par le chauffe-eau lorsqu'il est en mode veille, c'est-à-dire lorsque l'eau est chauffée mais non utilisée. La consommation électrique totale d'un chauffe-eau est très variable d'un cas à l'autre mais en moyenne on estime qu'un chauffe-eau consomme autour de 1500 kwh par an ce qui représente environ 40% de la facture d'électricité d'un logement (qui ne se chauffe pas à l'électricité). La part des pertes statiques dans cette consommation est estimée à 32% soit environ 500 kwh par an en moyenne. Même depuis l'installation du nouveau compteur connecté Linky, il est généralement impossible de mesurer la consommation de chaque appareil électrique individuellement et notamment du chauffe-eau et encore moins uniquement de l'énergie dépensée uniquement pour compenser les pertes statiques. Dans un monde idéal, tous les utilisateurs pourraient analyser leur consommation détaillée par appareil sur leur facture d'électricité comme on peut déjà le faire grâce à des écocompteurs directement sur le tableau électrique ou des capteurs connectés.
+        <i>Date de publication : janvier 2025</i>
     </p>
 
-    <img src="ecojoko.webp" alt="Ecojoko" style="width:80%">
-    <img src="ecocompteur.jpg" alt="Ecocompteur" style="width:80%">
-
-
-    <div class="spacer"></div>
-
     <p>
-
-        Les pertes statiques sont bien sûr inévitables dans ce type de système. Mais il existe pourtant des paramètres pour les limiter et ceux-ci sont malheureusement trop peu souvent évoqués. Voici donc quelques constats et reflexions sur les différents paramètres que vous pouvez modifier pour l'optimisation de votre chauffe-eau électrique :
+        En france, l'eau chaude sanitaire que nous utilisons dans nos logements principalement pour se laver et faire la vaisselle à la main a commencé à se démocratiser après-guerre et est aujourd’hui une évidence. Il existe une multitude de moyens différents de chauffer l’eau. Le système peut être couplé au chauffage central du logement comme une chaudière (fioul, gaz, bois, pellets, etc) ou être un système indépendant. La production peut être instantanée ou par accumulation dans un ballon d’eau chaude. Généralement c’est une simple résistance électrique qui chauffe et maintient chaude l'eau contenue dans le ballon.
+    </p>
+    <p>
+        Historiquement c’est cette solution qui est la plus courante en France. En 2016 on comptait environ 17 millions d’unités installées et 1.5 millions d’unités vendues dans le pays. Ces systèmes sont apparus dans un monde où l'énergie était abondante et bon marché et où l'état d'esprit général n'était pas orienté vers la sobriété. Aujourd'hui le contexte est différent. Le prix de l'énergie augmente et les enjeux climatiques sont devenus une préoccupation un peu plus importante. Pourtant l'emprunte des chauffe-eaux électriques est rarement un sujet de discussion en comparaison du chauffage des habitations ou du transport. C'est pourtant un poste de consommation important dans un logement mais comme il est souvent noyé dans une facture d'électricité globale et non détaillée, il n'est pas évident voir même invisible. Il peut y avoir beaucoup de gaspillage d'energie fait au niveau d'un chauffe-eau. Comme on ne peut rien mesurer, on a tendance à beaucoup sous-estimer le surdimensionnement de la cuve et l'importance des pertes statiques.
+    </p>
+    <p>
+        Les pertes statiques désignent l'énergie thermique perdue par dissipation par le chauffe-eau lorsqu'il est en mode veille, c'est-à-dire lorsque l'eau est chauffée mais non utilisée. Elles sont bien sûr inévitables dans ce type de système. Mais il existe pourtant des moyens pour agir dessus et les limiter. Voici donc quelques constats et reflexions sur ce que vous pouvez modifier pour optimiser la consommation de votre chauffe-eau électrique :
     </p>
 
     <ol class="onecol">
-        <li><a href="#dimensionnement">Dimensionnement du réservoir</a></li>
-        <li><a href="#isolation-thermique">Isolation thermique</a></li>
-        <li><a href="#temperature-ambiance">Température d’ambiance autour du chauffe-eau</a></li>
+        <li><a href="#mesure-conso-elec">Mesure de la consommation électrique</a></li>
         <li><a href="#temperature-consigne">Température de consigne de l'eau du réservoir</a></li>
+        <li><a href="#temperature-ambiance">Température d’ambiance de l'air autour du chauffe-eau</a></li>
+        <li><a href="#isolation-thermique">Isolation thermique</a></li>
+        <li><a href="#mesure-puisage">Mesure de la consommation d'eau chaude</a></li>
+        <li><a href="#dimensionnement">Dimensionnement du réservoir</a></li>
         <li><a href="#tldr">TLDR</a></li>
     </ol>
 
     <div class="spacer"></div>
 
-    <h2 id="dimensionnement">Dimensionnement du réservoir</h2>
+    <h2 id="mesure-conso-elec">Mesure de la consommation électrique</h2>
     <p>
-
-    <h2 id="isolation-thermique">Isolation thermique</h2>
-    <p>
-        Les fabricants n’isolent pas assez les chauffe-eau. Il existe bien un systeme de notation de la performance des appareils qui aide à a comparaison lors de l'achat. Mais le système est assez rudimentaire et n'incite pas les fabricants à augmenter suffisamment l'épaisseur des isolants. Pour faire des economies, ils font le minimum pour atteindre la classe énergétique visée. Tous les chauffe-eaux du marché sont aujourd’hui isolés par 32 à 38mm de polyuréthane sans isolation complète de la trappe de visite au niveau du thermostat. Pour une installation standart, une isolation renforcée (70mm au lieu de 35mm) permettrait un gain moyen autour de 200kWh par an. Il est possible de rajouter de l'isolant sur un chauffe-eau existant pour améliorer ses performances. Attention, il y a plusieurs precautions à prendre pour la sécurité de l'installation et pour que celle-ci soit le plus efficace possible.
+        La consommation électrique totale d'un chauffe-eau est très variable d'un cas à l'autre mais en moyenne on estime qu'un chauffe-eau consomme autour de 1500 kWh par an ce qui représente environ 40% de la facture d'électricité d'un logement (qui ne se chauffe pas à l'électricité). La part des pertes statiques dans cette consommation est estimée à ~30% soit environ 500 kWh par an. Malheureusement, dans la plupart des installations existantes il est  impossible de connaitre la part d'électricité dédiée au chauffe-eau. Il est difficile d'améliorer quelque chose qu'on ne connait pas. Heureusement les choses changent et les constructions neuves d'habitations doivent respecter une <a href="https://fr.wikipedia.org/wiki/R%C3%A9glementation_thermique_en_France" target="_blank">réglementation thermique</a>. Depuis 2011, on impose l'installation d'un dispositif permettant de consulter la consommation électrique de certains circuits clairement identifiés (chauffage, climatisation, production d’eau chaude sanitaire, etc). Pour rappel être équipé du compteur <a href="https://fr.wikipedia.org/wiki/Linky" target="_blank">Linky</a> ne suffit pas à être en capacité de mesurer la consommation de chaque appareil électrique individuellement. Pour ce faire il est toujours nécessaire d'installer un dispositif additionnel dédié et il existe plusieurs technologies. Les plus simples à mettre en œuvre sont :
+        <ul>
+            <li>un compteur avec un écran d'affichage installé directement dans le tableau électrique basé sur un système de tores. Vous pouvez suivre plus ou moins bien la consommation de certains appareils préalablement identifiés depuis votre tableau électrique.</li>
+            <li>un compteur connecté directement branché sur le Linky. Ce type de système collecte votre consommation électrique détaillée, et transmet l'information en temps réel à un serveur à distance qui la stocke et en fait une analyse. Vous pouvez suivre la consommation de tous les appareils via une application smartphone. Vous </li>
+        </ul>
     </p>
 
-    <h2 id="temperature-ambiance">Température d’ambiance autour du chauffe-eau</h2>
-    <p>
-        La température de l’air ambiant autour du chauffe eau est souvent oubliée mais joue un rôle majeur dans les pertes statiques. Trop souvent le ballon est placé dans un endroit froid comme un garage, une cave, un grenier ou un cellier. Quand c'est possible, il faut le placer dans la zone chauffée du logement pour réduire le différentiel de température. Gardons à l'esprit que l'été, le chauffe-eau pourra produire de la chaleur indésirable dans ce local.
-    </p>
+    <a href="./ecocompteur.jpg" class="glightbox">
+        <img src="./ecocompteur.jpg" alt="ecocompteur" style="width:30%" />
+    </a>
+
+    <a href="./linky-ecojoko.jpg" class="glightbox">
+        <img src="./linky-ecojoko.jpg" alt="installation linky" style="width:30%" />
+    </a>
+
+    <a href="./ecojoko.png" class="glightbox">
+        <img src="./ecojoko.png" alt="app ecojoko" style="width:30%" />
+    </a>
+
+    <div class="spacer"></div>
 
     <h2 id="temperature-consigne">Température de consigne de l’eau du réservoir</h2>
     <p>
-        La gestion de la température de stockage est un point clé car elle influe directement et de manière importante sur la consommation électrique. Malheuresement celle-ci est généralement très mal maitrisée. En voici quelques raisons.
+        La gestion de la température de stockage est un point clé car elle influe directement et de manière importante sur la consommation électrique. Malheureusement celle-ci est généralement très mal maitrisée. En voici quelques raisons.
     </p>
     <p>
-        D'abord parceque l’immense majorité des chauffe-eaux n’indique pas cette température. On ne peut généralement pas consulter la température réelle d’un chauffe-eau. Les fabricants n'offrent qu'un moyen de réglage imprécis et situé à un emplacement peu accessible. Dans le parc français, 75% des thermostats sont du fabricant COTHERM (les principaux concurrents sont Thermowatt et tec kit). Le fabricant positionne le réglage des thermostats au maximum en sortie d’usine. De part leur emplacement les thermostats sont en effet difficilement accessibles, les graduations sont peu lisibles et les correspondances avec des températures réelles sont assez théoriques au regard des constatations faites sur le terrain. Il faudrait ajouter systématiquement un affichage de la température de consigne en façade, avec la possibilité de la modifier facilement avec des boutons ergonomiques +/- et dans une large plage de températures.
+        D'abord parce que l’immense majorité des chauffe-eaux n’indique tout simplement pas cette température. On ne peut généralement pas consulter la température réelle de l'eau contenue dans un chauffe-eau. Les fabricants n'offrent qu'un moyen de réglage imprécis grâce à un thermostat gradué de 1 à 5 et situé à un emplacement peu accessible. Dans le parc français, environ 75% des thermostats sont du fabricant COTHERM (les principaux concurrents sont Thermowatt et tec kit). Le fabricant positionne le réglage des thermostats au maximum en sortie d’usine. De part leur emplacement les thermostats sont en effet difficilement accessibles, les graduations sont peu lisibles et les correspondances avec des températures réelles sont assez théoriques au regard des constatations faites sur le terrain. Il faudrait ajouter systématiquement un affichage de la température de consigne en façade, avec la possibilité de la modifier facilement avec des boutons ergonomiques +/- et dans une large plage de températures. Même si ce n'est pas parfait, on peut palier à ce manque en ajoutant un simple thermomètre de plomberie à la sortie du chauffe-eau.
     </p>
 
+    <a href="./reglage-cotherm.webp" class="glightbox">
+        <img src="./reglage-cotherm.webp" alt="thermostat" style="width:30%" />
+    </a>
+    <a href="./acces-trappe.jpg" class="glightbox">
+        <img src="./acces-trappe.jpg" alt="trappe" style="width:30%" />
+    </a>
+    <a href="./thermometre-plomberie.jpg" class="glightbox">
+        <img src="./thermometre-plomberie.jpg" alt="thermomètre" style="width:30%" />
+    </a>
+
     <p>
-        Ensuite parce qu'il y a un manque cruel d'information quant aux recommendations sur la température de consigne. Les recommandations sont difficiles à se procurer et relativement variables d'un document à l'autre. Surtout aucun détails ni aucune source scientifique n'est généralement disponible. Il existe effectivement un risque sanitaire lié au development de bactéries dans l'eau chaude et stagnante du ballon, mais celui ci est mal documenté à ma connaissance. Dans ce but on recommande habituellement de maintenir la température de consigne très élevée : généralement autour de 60°C. Le plus souvent c'est un professionnel qui effectue ce réglage lors de l'installation. Pour avoir la conscience tranquille et éviter les problèmes, il a tendance à plutôt surdimensionner la température de consigne. Conserver en permanence une eau aussi chaude rajoute un surcout important pour l'utilisateur. Une décision prise rapidement et discrètement mais avec de grandes conséquences au long terme car elle est invisible et ne sera probablement plus jamais modifiée jusqu'à la fin de vie de l'appareil.
+        Ensuite parce qu'il y a un manque cruel d'information quant aux recommendations sur la température de consigne. Les recommandations sont difficiles à se procurer et relativement variables d'un document à l'autre. Surtout aucun détails ni aucune source scientifique n'est généralement disponible. Il existe effectivement un risque sanitaire lié au development de bactéries dans l'eau chaude et stagnante du ballon, mais celui ci est mal documenté à ma connaissance. Dans ce but on recommande habituellement de maintenir la température de consigne très élevée et le chiffre de 65°C revient le plus souvent. Généralement c'est un professionnel qui effectue ce réglage lors de l'installation. Pour avoir la conscience tranquille et éviter les problèmes, il a tendance à plutôt surdimensionner la température de consigne. Conserver en permanence une eau aussi chaude rajoute un surcout important pour l'utilisateur. Une décision prise rapidement et discrètement mais avec de grandes conséquences au long terme car elle est invisible et ne sera probablement plus jamais modifiée jusqu'à la fin de vie de l'appareil.
     </p>
 
     <p>
@@ -98,14 +114,59 @@
 
     <div class="spacer"></div>
 
+    <h2 id="temperature-ambiance">Température d’ambiance de l'air autour du chauffe-eau</h2>
+    <p>
+        La température de l’air ambiant autour du chauffe eau est souvent oubliée mais joue un rôle majeur dans les pertes statiques. Trop souvent le ballon est placé dans un endroit froid comme un garage, une cave, un grenier ou un cellier. Quand c'est possible, il faut le placer dans la zone chauffée du logement pour réduire le différentiel de température. Gardons à l'esprit que l'été, le chauffe-eau pourra produire de la chaleur indésirable dans ce local.
+    </p>
+
+    <div class="spacer"></div>
+
+    <h2 id="isolation-thermique">Isolation thermique</h2>
+    <p>
+        Les fabricants n’isolent pas assez les chauffe-eau. Il existe bien un système de notation de la performance des appareils qui aide à a comparaison lors de l'achat. Mais le système est assez rudimentaire et n'incite pas les fabricants à augmenter suffisamment l'épaisseur des isolants. Pour faire des economies, ils font le minimum pour atteindre la classe énergétique visée. Tous les chauffe-eaux du marché sont aujourd’hui isolés par 32 à 38mm de polyuréthane sans isolation complète de la trappe de visite au niveau du thermostat. Pour une installation standard, une isolation renforcée (70mm au lieu de 35mm) permettrait un gain moyen autour de 200kWh par an. Il est possible de rajouter de l'isolant sur un chauffe-eau existant pour améliorer ses performances. Attention, il y a plusieurs precautions à prendre pour la sécurité de l'installation et pour que celle-ci soit le plus efficace possible.
+    </p>
+
+    <a href="./isolation1.jpg" class="glightbox">
+        <img src="./isolation1.jpg" alt="isolation" style="width:30%" />
+    </a>
+    <a href="./isolation2.jpg" class="glightbox">
+        <img src="./isolation2.jpg" alt="isolation" style="width:30%" />
+    </a>
+    <a href="./isolation3.jpg" class="glightbox">
+        <img src="./isolation3.jpg" alt="isolation" style="width:30%" />
+    </a>
+
+    <div class="spacer"></div>
+
+    <h2 id="mesure-puisage">Mesure de la consommation d'eau chaude</h2>
+    <p>
+        La majorité des installations ne dispose d'aucun moyen pour mesurer la consommation effective d'eau chaude. Pourtant savoir précisément combien d'eau est utilisée au quotidien est primordial. Combien de litres pour une douche et quelle est la température de l'eau ? Combien pour faire la vaisselle ? Pour le savoir, il suffit d'installer pour une somme modique un simple compteur. Le plus efficace est de mesurer directement au point de puisage comme dans la douche par exemple.
+    </p>
+
+    <a href="./compteur-douche.jpg" class="glightbox">
+        <img src="./compteur-douche.jpg" alt="compteur douche" style="width:30%" />
+    </a>
+    <a href="./compteur-eau.jpg" class="glightbox">
+        <img src="./compteur-eau.jpg" alt="compteur eau" style="width:30%" />
+    </a>
+
+    <div class="spacer"></div>
+
+    <h2 id="dimensionnement">Dimensionnement du réservoir</h2>
+    <p>
+
+    </p>
+
+    <div class="spacer"></div>
+
     <h2 id="tldr">TLDR</h2>
     <ul>
-        <li>mesurer sa consommation réelle d'eau chaude avec un appareil plutôt que l'estimer avec des barèmes arbitraires</li>
-        <li>acheter un chauffe-eau avec une cuve la plus petite possible par rapport à ses besoins</li>
-        <li>choisir si possible un modèle muni d'un thermomètre et réduire la température de consigne de l'eau au maximum</li>
-        <li>placer le chauffe-eau dans la zone chauffée du logement plutôt qu'à la cave par exemple</li>
-        <li>rajouter une isolation supplémentaire autour du chauffe-eau car les fabricants n'en mettent pas assez</li>
-        <li>suivre la consommation électrique détaillée du chauffe-eau grâce à un dispositif spécifique (ecocompteur, capteur connecté, etc)</li>
+        <li>mesurer sa consommation réelle d'eau chaude avec un simple compteur plutôt que l'estimer avec des barèmes arbitraires</li>
+        <li>acheter un chauffe-eau avec une cuve la plus petite possible par rapport à ses besoins pour ne pas chauffer de l'eau inutilement</li>
+        <li>choisir si possible un modèle muni d'un thermomètre en facade et réduire la température de consigne de l'eau sur le thermostat au maximum (en vous étant renseigné sur les risques d'attraper la légionellose au préalable)</li>
+        <li>placer le chauffe-eau dans la zone chauffée du logement plutôt que dans une cave plus froide en hiver par exemple</li>
+        <li>rajouter une isolation supplémentaire faite maison autour du chauffe-eau car les fabricants n'en mettent pas assez</li>
+        <li>suivre la consommation électrique détaillée du chauffe-eau grâce à un dispositif spécifique</li>
     </ul>
 
     <div class="spacer"></div>
@@ -116,7 +177,10 @@
         <li><a href="https://www.enertech.fr/wp-content/uploads/2024/05/180720_Enertech_CdM_ChauffeEau_Joule.pdf" target="_blank">https://www.enertech.fr/wp-content/uploads/2024/05/180720_Enertech_CdM_ChauffeEau_Joule.pdf</a></li>
         <li><a href="https://www.cnetfrance.fr/news/ecojoko-devoile-son-tout-nouveau-capteur-pour-les-compteurs-linky-380017.htm" target="_blank">https://www.cnetfrance.fr/news/ecojoko-devoile-son-tout-nouveau-capteur-pour-les-compteurs-linky-380017.htm</a></li>
         <li><a href="https://sante.gouv.fr/IMG/pdf/guide_du_cshsp_pour_l_investigation_et_l_aide_a_la_gestion_sur_le_risque_lies_aux_legionelles_-_2013.pdf" target="_blank">https://sante.gouv.fr/IMG/pdf/guide_du_cshsp_pour_l_investigation_et_l_aide_a_la_gestion_sur_le_risque_lies_aux_legionelles_-_2013.pdf</a></li>
+        <li><a href="https://fr.wikipedia.org/wiki/L%C3%A9gionellose" target="_blank">https://fr.wikipedia.org/wiki/L%C3%A9gionellose</a></li>
+
         <li><a href="https://www.apper-solaire.org/sur-isolation-dun-ballon/" target="_blank">https://www.apper-solaire.org/sur-isolation-dun-ballon/</a></li>
+        <li><a href="https://www.youtube.com/watch?v=xQlCmEQMKkk" target="_blank">https://www.youtube.com/watch?v=xQlCmEQMKkk</a></li>
     </ul>
 
     <footer>
@@ -133,6 +197,14 @@
             github
         </a>
     </footer>
+
+    <script src="./glightbox.min.js"></script>
+    <script type="text/javascript">
+        // Initialize Glightbox after the DOM has loaded
+        document.addEventListener('DOMContentLoaded', function () {
+            const lightbox = GLightbox();
+        });
+    </script>
 
 </body>
 
