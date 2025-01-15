@@ -21,3 +21,33 @@ footer {
 .mini-spacer {
     margin-top: 0em;
 }
+
+h1, h2, h3 {
+    font-family: 'Martian Mono', monospace;
+}
+
+body {
+    font-family: 'Prociono', serif;
+}
+
+p, li {
+    font-size: 1.325rem;
+}
+
+footer {
+    font-size: 1.2rem;
+    font-family: 'JetBrains Mono', monospace;
+    color: #a3a3a3;
+}
+
+.publishedat {
+    font-size: 1.2rem;
+    font-family: 'JetBrains Mono', monospace;
+    color: #a3a3a3;
+}
+
+.readingtime {
+    font-size: 1.2rem;
+    font-family: 'JetBrains Mono', monospace;
+    color: #a3a3a3;
+}

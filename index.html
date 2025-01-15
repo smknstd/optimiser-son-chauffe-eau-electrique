@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" href="./custom.css">
     <link rel="stylesheet" type="text/css" href="./glightbox.min.css" />
 
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=jetbrains-mono:400|prociono:400|martian-mono:600" rel="stylesheet" />
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -31,16 +34,19 @@
 
 <body>
 
-    <a class="home" href="index.html">
-        &#128167;
-    </a>
+    <div class="mid-spacer"></div>
+
+    <img src="./cover.png" alt="cover" style="width:70%" />
 
     <h1>Optimiser son chauffe-eau électrique</h1>
 
     <div class="mid-spacer"></div>
-    <i>Date de publication : janvier 2025</i>
-    <div class="mini-spacer"></div>
-    <i>Temps de lecture : ~8 minutes</i>
+    <div class="publishedat">
+        publié en janvier 2025
+    </div>
+    <div class="readingtime">
+        8 minutes de lecture
+    </div>
     <div class="mid-spacer"></div>
 
     <p>
@@ -70,7 +76,7 @@
         La consommation électrique totale d'un chauffe-eau est très variable d'un cas à l'autre mais en moyenne on estime qu'un chauffe-eau consomme autour de 1500 kWh par an ce qui représente environ 40% de la facture d'électricité d'un logement (qui ne se chauffe pas à l'électricité). La part des pertes statiques dans cette consommation est estimée à ~30% soit environ 500 kWh par an. Malheureusement, dans la plupart des installations existantes il est  impossible de connaitre la part d'électricité dédiée au chauffe-eau. Il est difficile d'améliorer quelque chose qu'on ne connait pas. Heureusement les choses changent et les constructions neuves d'habitations doivent respecter une <a href="https://fr.wikipedia.org/wiki/R%C3%A9glementation_thermique_en_France" target="_blank">réglementation thermique</a>. Depuis 2011, on impose l'installation d'un dispositif permettant de consulter la consommation électrique de certains circuits clairement identifiés (chauffage, climatisation, production d’eau chaude sanitaire, etc). Pour rappel être équipé du compteur <a href="https://fr.wikipedia.org/wiki/Linky" target="_blank">Linky</a> ne suffit pas à être en capacité de mesurer la consommation de chaque appareil électrique individuellement. Pour ce faire il est toujours nécessaire d'installer un dispositif additionnel dédié et il existe plusieurs technologies. Les plus simples à mettre en œuvre sont :
         <ul>
             <li>un compteur avec un écran d'affichage installé directement dans le tableau électrique basé sur un système de tores. Vous pouvez suivre plus ou moins bien la consommation de certains appareils préalablement identifiés depuis votre tableau électrique.</li>
-            <li>un compteur connecté directement branché sur le Linky. Ce type de système collecte votre consommation électrique détaillée, et transmet l'information en temps réel à un serveur à distance qui la stocke et en fait une analyse. Vous pouvez suivre la consommation de tous les appareils via une application smartphone. Vous </li>
+            <li>un compteur connecté directement branché sur le Linky. Ce type de système collecte votre consommation électrique détaillée, et transmet l'information en temps réel à un serveur à distance qui la stocke et en fait une analyse. Vous pouvez suivre la consommation de tous les appareils via une application smartphone.</li>
         </ul>
     </p>
 
@@ -107,15 +113,15 @@
     </a>
 
     <p>
-        Ensuite parce qu'il y a un manque cruel d'information quant aux recommendations sur la température de consigne. Les recommandations sont difficiles à se procurer et relativement variables d'un document à l'autre. Surtout aucun détails ni aucune source scientifique n'est généralement disponible. Il existe effectivement un risque sanitaire lié au development de bactéries dans l'eau chaude et stagnante du ballon, mais celui ci est mal documenté à ma connaissance. Dans ce but on recommande habituellement de maintenir la température de consigne très élevée et le chiffre de 65°C revient le plus souvent. Généralement c'est un professionnel qui effectue ce réglage lors de l'installation. Pour avoir la conscience tranquille et éviter les problèmes, il a tendance à plutôt surdimensionner la température de consigne. Conserver en permanence une eau aussi chaude rajoute un surcout important pour l'utilisateur. Une décision prise rapidement et discrètement mais avec de grandes conséquences au long terme car elle est invisible et ne sera probablement plus jamais modifiée jusqu'à la fin de vie de l'appareil.
+        Ensuite parce qu'il y a un manque cruel d'information quant aux recommendations sur la température de consigne. Les recommandations sont difficiles à se procurer et relativement variables d'un document à l'autre. Surtout aucun détails ni aucune source scientifique n'est généralement disponible. Il existe effectivement un risque sanitaire lié au development de bactéries dans l'eau chaude et stagnante du ballon, mais celui-ci est mal documenté à ma connaissance. Dans ce but on recommande habituellement de maintenir la température de consigne très élevée et le chiffre de 65°C revient le plus souvent. Généralement c'est un professionnel qui effectue ce réglage lors de l'installation. Pour avoir la conscience tranquille et éviter les problèmes, il a tendance à plutôt surdimensionner la température de consigne. Conserver en permanence une eau aussi chaude rajoute un surcout important pour l'utilisateur. Une décision prise rapidement et discrètement mais avec de grandes conséquences au long terme car elle est invisible et ne sera probablement plus jamais modifiée jusqu'à la fin de vie de l'appareil.
     </p>
 
     <p>
-        Il existe pourtant une façon de résoudre ce problème assez facilement si le chauffe-eaux permettait de programmer régulièrement des cycles de montée en température temporaire (aussi chaud  que nécessaire, à 60-70 °C par exemple) de quelques minutes seulement pour tuer les bactéries. On pourrait ajuster la fréquence de ces montées en température "flash". Cela permettrait de régler la temperature de consigne le reste du temps le plus bas possible par rapport aux besoins réels de consommation.
+        Il existe pourtant une façon de résoudre ce problème assez facilement si le chauffe-eaux permettait de programmer régulièrement des cycles de montée en température temporaire (aussi chaud  que nécessaire, à 60-70 °C par exemple) de quelques minutes seulement pour tuer les bactéries. On pourrait ajuster la fréquence de ces montées en température "flash". Cela permettrait de régler la temperature de consigne le reste du temps le plus bas possible par rapport aux besoins réels de consommation. Malheureusement la possibilité d'automatiser cette procédure n'existe pas sur les chuaffe-eaux qu'on trouve dans le commerce.
     </p>
 
     <p>
-        Les chauffe-eaux sont exposé à la formation du tartre, qui en est une cause majeure de dysfonctionnements et de pannes. Le tartre se forme principalement à partir des minéraux dissous dans l'eau (principalement le calcium et le magnésium). Lorsque l'eau est chauffée, ces minéraux se déposent sous forme de carbonate de calcium, formant le tartre. La vitesse de formation du tartre augmente avec la température. Plus l'eau est chauffée, plus le carbonate de calcium précipite rapidement. À des températures supérieures à 55-60 °C, la formation de tartre s'accélère considérablement. Une couche de tartre sur la résistance ou au fond de la cuve ralentit le transfert de chaleur, obligeant le chauffe-eau à consommer plus d'énergie pour chauffer l'eau et à long terme générer des défaillances et favoriser la corrosion de la cuve. Il existe des dispositifs spéciaux pour limiter la formation du tartre sur certains chauffe-eaux mais ceux-ci s'usent avec le temps. En limitant la température de consigne on peut réduire la formation de tartre et allonger la durée de vie de son materiel.
+        Les chauffe-eaux sont exposés à la formation du tartre, qui en est une cause majeure de dysfonctionnements et de pannes. Le tartre se forme principalement à partir des minéraux dissous dans l'eau (principalement le calcium et le magnésium). Lorsque l'eau est chauffée, ces minéraux se déposent sous forme de carbonate de calcium, formant le tartre. La vitesse de formation du tartre augmente avec la température. Plus l'eau est chauffée, plus le carbonate de calcium précipite rapidement. À des températures supérieures à 55-60 °C, la formation de tartre s'accélère considérablement. Une couche de tartre sur la résistance ou au fond de la cuve ralentit le transfert de chaleur, obligeant le chauffe-eau à consommer plus d'énergie pour chauffer l'eau et à long terme générer des défaillances et favoriser la corrosion de la cuve. Il existe des dispositifs spéciaux pour limiter la formation du tartre sur certains chauffe-eaux mais ceux-ci s'usent avec le temps. En limitant la température de consigne on peut réduire la formation de tartre et allonger la durée de vie de son materiel.
     </p>
 
     <div class="spacer"></div>
@@ -172,7 +178,11 @@
     <div class="spacer"></div>
 
     <h2 id="tldr">TLDR</h2>
-    La part du chauffe-eau électrique sur la facture d'électricité est de plusieurs centaines d'euros par an. On chauffe trop d'eau qu'on n'utilise pas et à une température trop chaude. En faisant quelques ajustements, on peut réduire considérablement sa facture d'électricité :
+
+    <p>
+        La part du chauffe-eau électrique sur la facture d'électricité est de plusieurs centaines d'euros par an. On chauffe trop d'eau qu'on n'utilise pas et à une température trop chaude. En faisant quelques ajustements, on peut réduire considérablement sa facture d'électricité :
+    </p>
+
     <ul>
         <li>mesurer sa consommation réelle d'eau chaude avec un simple compteur plutôt que l'estimer avec des barèmes arbitraires</li>
         <li>acheter un chauffe-eau avec une cuve la plus petite possible par rapport à ses besoins pour ne pas chauffer de l'eau inutilement</li>
@@ -194,21 +204,17 @@
 
         <li><a href="https://www.apper-solaire.org/sur-isolation-dun-ballon/" target="_blank">https://www.apper-solaire.org/sur-isolation-dun-ballon/</a></li>
         <li><a href="https://www.youtube.com/watch?v=xQlCmEQMKkk" target="_blank">https://www.youtube.com/watch?v=xQlCmEQMKkk</a></li>
+        <li><a href="https://rt-re-batiment.developpement-durable.gouv.fr/IMG/pdf/re2020_fiche_d_application_systemes_de_mesure_ou_d_estimation_des_consommations_en_logement__20211216.pdf" target="_blank">https://rt-re-batiment.developpement-durable.gouv.fr/IMG/pdf/re2020_fiche_d_application_systemes_de_mesure_ou_d_estimation_des_consommations_en_logement__20211216.pdf</a></li>
     </ul>
 
     <footer>
         Cette page a été créée avec
         <svg class="love-icon" fill="red" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>
         par
-        <a href="https://smknstd.github.io" target="_blank">
-            smknstd
-        </a>
-        .
+        <a href="https://smknstd.github.io" target="_blank">smknstd</a>.
         Il est sans cookies et ne contient aucun traqueur.
         <br>Une erreur ? N'hésitez pas à soumettre une PR sur
-        <a href="https://github.com/smknstd/optimiser-son-chauffe-eau-electrique" target="_blank">
-            github
-        </a>
+        <a href="https://github.com/smknstd/optimiser-son-chauffe-eau-electrique" target="_blank">github</a>.
     </footer>
 
     <script src="./glightbox.min.js"></script>
