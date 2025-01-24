@@ -51,3 +51,9 @@ footer {
     font-family: 'JetBrains Mono', monospace;
     color: #a3a3a3;
 }
+
+a {
+    overflow-wrap: break-word;
+    word-break: break-all;
+    hyphens: auto;
+}
